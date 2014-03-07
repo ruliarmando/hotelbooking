@@ -86,3 +86,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Secret key development Tiket.com
+TIKET_COM_SECRET_KEY = 'a2e994ab8869b8a49a1d0497b30bccf4'
+
+TIKET_COM_CONFIRM_KEY = 'ce8ca6'
+
+TIKET_COM_TOKEN = 'a439e757f831ef52250863bf70a2e476'
