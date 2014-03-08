@@ -10,10 +10,10 @@ def index(request):
 def search_hotel(request):
     base_url = 'https://api.master18.tiket.com/search/hotel?'
     fields = {
-        'q': 'Kepulauan Riau',
-        'startdate': '2014-03-04',
+        'q': 'Riau',
+        'startdate': '2014-03-20',
         'night': 1,
-        'enddate': '2014-03-05',
+        'enddate': '2014-03-21',
         'room': 1,
         'adult': 2,
         'token': settings.TIKET_COM_TOKEN,
@@ -22,3 +22,4 @@ def search_hotel(request):
     query_url = base_url + urllib.urlencode(fields)
     response = urllib2.urlopen(query_url)
     return render(request, 'frontend/search.html', {'html': response.read()})
+
