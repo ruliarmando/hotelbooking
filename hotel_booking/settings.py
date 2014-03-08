@@ -93,3 +93,5 @@ TIKET_COM_SECRET_KEY = 'a2e994ab8869b8a49a1d0497b30bccf4'
 TIKET_COM_CONFIRM_KEY = 'ce8ca6'
 
 TIKET_COM_TOKEN = 'a439e757f831ef52250863bf70a2e476'
+
+TIKET_COM_API_URL = 'https://api.master18.tiket.com/search/hotel?'
